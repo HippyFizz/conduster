@@ -1,0 +1,24 @@
+{
+  "name": "collectorjs",
+  "version": "0.1.0",
+  "description": "Src code pixel, builds to ../collector/static/collector/js/conduster.js",
+  "main": "conduster.js",
+  "scripts": {
+    "build": "webpack --progress --colors --optimize-minimize",
+    "watch": "webpack --progress --colors --watch --optimize-minimize",
+    "watch-dev": "webpack --progress --colors --watch",
+    "test": "jest"
+  },
+  "author": "Conduster",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "sha1": "^1.1.1",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "jest": "^22.0.4"
+  }
+}

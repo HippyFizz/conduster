@@ -1,0 +1,92 @@
+{% load static %}
+
+<html>
+	<body>
+		<div>
+			<form id="regForm">
+				<p>
+					<label >First Name
+					    <input required style="font-weight: bold;" type="text" spellcheck="true" name="name" class="name-css-class"/>
+                    </label>
+				</p>
+				<p>
+					<label>Last Name
+                        <input list="listAttr" pattern="[0-9A-Za-zА-Яа-яЁё]+" type="text" tabindex="1" dir="rtl" name="last-name" accesskey="l"/>
+                    </label>
+                    <datalist id="listAttr"><option value="Internet Explorer"></datalist>
+				</p>
+				<p>
+					<label>Password
+                        <input name="password" type="password" tabindex="2"/>
+                    </label>
+                    <datalist id="listAttr"><option value="Internet Explorer"></datalist>
+				</p>
+				<p>
+					<label>Middle Name
+                        <input data-id="data-id" data-attr="data-attr" data-col="data-col" type="text" name="middle-name" value="middle-value" readonly alt="alt text"/>
+                    </label>
+				</p>
+				<p>
+					<label>Second Name
+                        <input type="text" name="second-name" value="disabled-value" disabled/>
+                    </label>
+				</p>
+				<p>
+					<label>Age
+					    <input id='id_age' type="hidden" name="age" value="hidden-value"/>
+                    </label>
+				</p>
+				<p>
+					<label>textarea
+                        <textarea name="textarea-field-name">value in textarea</textarea>
+                    </label>
+				</p>
+				<p>
+					<label>select
+                        <select name="select-field-name" contenteditable="true">
+                            <option value="1">text1 in select</option>
+                            <option value="2">text2 in select</option>
+                        </select>
+                    </label>
+				</p>
+				<p>
+					<label>select-multiple
+                        <select multiple="multiple" name="select-multiple-field-name">
+                            <option>text1 in multiple-select</option>
+                            <option value="2">text2 in multiple-select</option>
+                        </select>
+                    </label>
+				</p>
+				<p>
+					<label>checkbox
+                        <input type="checkbox" name="checkbox-field-name" value="checkbox-value"/>
+                    </label>
+				</p>
+				<p>
+					<label>radio
+                        <input type="radio" name="radio-field-name" value="radio-value1"/>
+                        <input type="radio" name="radio-field-name" value="radio-value2"/>
+                    </label>
+				</p>
+				<p>
+					<label>file
+                        <input type="file" name="file-field-name"/>
+                    </label>
+				</p>
+
+				<input type="submit" value="Submit"/>
+                <button type="submit">Submit</button>
+                <button id="id_button" type="button">Submit</button>
+			</form>
+            <script>
+                document.getElementById('id_button').addEventListener('click', function(e) {
+                  e.stopPropagation();
+                  e.preventDefault();
+                  window.location.href = window.location.href + '?thank-you';
+                });
+            </script>
+		</div>
+        <script>window._cdrt = window._cdrt || { cid: '{{ pixel.id }}'};</script>
+        <script async src="/collector/conduster.js"></script>
+    </body>
+</html>

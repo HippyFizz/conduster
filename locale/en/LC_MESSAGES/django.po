@@ -1,0 +1,435 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-13 12:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: audit/lead_authenticity.py:54
+msgid "Field \"{}\" is required"
+msgstr ""
+
+#: audit/lead_duplication.py:60
+msgid " or "
+msgstr ""
+
+#: audit/lead_duplication.py:64
+msgid "Need minimal required fields {}"
+msgstr ""
+
+#: audit/lead_duplication.py:162
+msgid "Lead was sold to you outside the system"
+msgstr ""
+
+#: audit/lead_duplication.py:164
+msgid "Lead was sold {} times"
+msgstr ""
+
+#: audit/lead_duplication.py:166
+msgid "Lead has {} duplicates"
+msgstr ""
+
+#: audit/lead_duplication.py:168
+msgid "You already audited this lead {} times"
+msgstr ""
+
+#: audit/lead_duplication.py:170
+msgid "New lead"
+msgstr ""
+
+#: audit/schema.py:62 audit/schema.py:93 collector/projects_schema.py:66
+#: collector/projects_schema.py:82 collector/projects_schema.py:103
+#: collector/projects_schema.py:129 collector/projects_schema.py:150
+#: collector/projects_schema.py:172 profiles/schema.py:85
+#: profiles/schema.py:245
+msgid "Authentication required"
+msgstr ""
+
+#: audit/schema.py:70
+msgid "Permission denied"
+msgstr ""
+
+#: audit/utils.py:22
+msgid "Minimum {} fields required"
+msgstr ""
+
+#: collector/admin.py:30 collector/admin.py:37
+msgid "Untranslated"
+msgstr ""
+
+#: collector/analytics.py:57 collector/analytics.py:211
+#: collector/analytics.py:299
+msgid "Invalid group parameter"
+msgstr ""
+
+#: collector/analytics_schema.py:127 collector/analytics_schema.py:181
+msgid "Others"
+msgstr ""
+
+#: collector/analytics_schema.py:223
+msgid "Your leads"
+msgstr ""
+
+#: collector/analytics_schema.py:230
+msgid "Other leads"
+msgstr ""
+
+#: collector/models/analytics.py:212
+msgid "less than 5 minutes"
+msgstr ""
+
+#: collector/models/analytics.py:213 collector/models/analytics.py:244
+msgid "from 5 to 30 minutes"
+msgstr ""
+
+#: collector/models/analytics.py:214 collector/models/analytics.py:245
+msgid "from 30 to 60 minutes"
+msgstr ""
+
+#: collector/models/analytics.py:215
+msgid "from 1 to 4 hours"
+msgstr ""
+
+#: collector/models/analytics.py:216
+msgid "from 4 to 12 hours"
+msgstr ""
+
+#: collector/models/analytics.py:219
+msgid "from 12 to 24 hours"
+msgstr ""
+
+#: collector/models/analytics.py:221
+msgid "from 1 to 2 days"
+msgstr ""
+
+#: collector/models/analytics.py:224
+msgid "from 2 days to 1 week"
+msgstr ""
+
+#: collector/models/analytics.py:228
+msgid "from 1 week to 1 month"
+msgstr ""
+
+#: collector/models/analytics.py:232
+msgid "from 1 month to 1 year"
+msgstr ""
+
+#: collector/models/analytics.py:234
+msgid "more than 1 year"
+msgstr ""
+
+#: collector/models/analytics.py:240
+msgid "less than 5 seconds"
+msgstr ""
+
+#: collector/models/analytics.py:241
+msgid "from 5 to 30 seconds"
+msgstr ""
+
+#: collector/models/analytics.py:242
+msgid "from 30 to 60 seconds"
+msgstr ""
+
+#: collector/models/analytics.py:243
+msgid "from 1 to 5 minutes"
+msgstr ""
+
+#: collector/models/analytics.py:246
+msgid "more than 1 hour"
+msgstr ""
+
+#: collector/models/analytics.py:252
+msgid "5 minutes"
+msgstr ""
+
+#: collector/models/analytics.py:253
+msgid "1 hour"
+msgstr ""
+
+#: collector/models/analytics.py:254
+msgid "3 hours"
+msgstr ""
+
+#: collector/models/analytics.py:255
+msgid "12 hours"
+msgstr ""
+
+#: collector/models/analytics.py:256
+msgid "1 day"
+msgstr ""
+
+#: collector/models/analytics.py:269
+msgid "Client type"
+msgstr ""
+
+#: collector/models/analytics.py:270
+msgid "Total amount of sessions"
+msgstr ""
+
+#: collector/models/analytics.py:271
+msgid "Total duration of sessions"
+msgstr ""
+
+#: collector/models/analytics.py:272
+msgid "Total amount of unfinished sessions"
+msgstr ""
+
+#: collector/models/analytics.py:273
+msgid "Amount of sessions in last 30 days"
+msgstr ""
+
+#: collector/models/analytics.py:274
+msgid "Duration of sessions in last 30 days"
+msgstr ""
+
+#: collector/models/analytics.py:276
+msgid "Amount of unfinished sessions in last 30 days"
+msgstr ""
+
+#: collector/models/analytics.py:278
+msgid "Amount of sessions in last 10 days"
+msgstr ""
+
+#: collector/models/analytics.py:279
+msgid "Duration of sessions in last 10 days"
+msgstr ""
+
+#: collector/models/analytics.py:281
+msgid "Amount of unfinished sessions in last 10 days"
+msgstr ""
+
+#: collector/models/analytics.py:283
+msgid "Amount of sessions in last 3 days"
+msgstr ""
+
+#: collector/models/analytics.py:284
+msgid "Duration of sessions in last 3 days"
+msgstr ""
+
+#: collector/models/analytics.py:286
+msgid "Amount of unfinished sessions in last 3 days"
+msgstr ""
+
+#: collector/models/analytics.py:288
+msgid "Avg time session start in last 30"
+msgstr ""
+
+#: collector/models/analytics.py:290
+msgid "Avg time session start in last 10"
+msgstr ""
+
+#: collector/models/analytics.py:292
+msgid "Avg time session start in last 3"
+msgstr ""
+
+#: collector/models/analytics.py:297
+msgid "Postal code"
+msgstr ""
+
+#: collector/models/analytics.py:299
+msgid "Inet provider"
+msgstr ""
+
+#: collector/models/analytics.py:300
+msgid "Amount of devices in last 30 days"
+msgstr ""
+
+#: collector/models/analytics.py:301
+msgid "Amount of devices in last 10 days"
+msgstr ""
+
+#: collector/models/analytics.py:302
+msgid "Amount of devices in last 3 days"
+msgstr ""
+
+#: collector/models/dictionaries.py:22
+msgid "Phone"
+msgstr ""
+
+#: collector/models/dictionaries.py:23
+msgid "Tablet"
+msgstr ""
+
+#: collector/models/dictionaries.py:24
+msgid "Other"
+msgstr ""
+
+#: collector/models/raw.py:123
+msgid "field-filled"
+msgstr ""
+
+#: collector/models/raw.py:124
+msgid "form-submitted"
+msgstr ""
+
+#: collector/models/raw.py:130
+msgid "in milliseconds"
+msgstr ""
+
+#: collector/models/raw.py:134
+msgid "previous filled field"
+msgstr ""
+
+#: collector/models/raw.py:137
+msgid "previous filled field number"
+msgstr ""
+
+#: collector/models/raw.py:145
+msgid "data-... attrs"
+msgstr ""
+
+#: collector/models/raw.py:148
+msgid "css class attr"
+msgstr ""
+
+#: collector/models/raw.py:152
+msgid "text direction attr"
+msgstr ""
+
+#: collector/models/raw.py:156
+msgid "css style attr"
+msgstr ""
+
+#: collector/models/raw.py:158
+msgid "tabindex attr"
+msgstr ""
+
+#: collector/models/raw.py:160
+msgid "required attr"
+msgstr ""
+
+#: collector/models/raw.py:162
+msgid "pattern attr"
+msgstr ""
+
+#: collector/models/raw.py:163
+msgid "list attr"
+msgstr ""
+
+#: collector/models/raw.py:164
+msgid "count of corrections by user"
+msgstr ""
+
+#: collector/models/raw.py:165 collector/models/raw.py:167
+msgid "count of keypress by user"
+msgstr ""
+
+#: collector/models/raw.py:170
+msgid "is data pasted from clipboard?"
+msgstr ""
+
+#: collector/models/raw.py:171
+msgid "entered data"
+msgstr ""
+
+#: collector/models/raw.py:173
+msgid "entered data hash"
+msgstr ""
+
+#: collector/projects_schema.py:65 collector/projects_schema.py:102
+#: collector/projects_schema.py:149
+msgid "Project not found"
+msgstr ""
+
+#: collector/projects_schema.py:128 collector/projects_schema.py:171
+msgid "Offer not found"
+msgstr ""
+
+#: condust/settings.py:189
+msgid "English"
+msgstr ""
+
+#: condust/settings.py:190
+msgid "Russian"
+msgstr ""
+
+#: profiles/forms.py:20
+msgid "Incorrect phone number"
+msgstr ""
+
+#: profiles/forms.py:26
+msgid "User with this email elaready exists"
+msgstr ""
+
+#: profiles/register.py:40
+msgid "Thank you for your registartion on Conduster"
+msgstr ""
+
+#: profiles/register.py:41
+#, python-brace-format
+msgid ""
+"Please follow next link to confirm your registration\n"
+"https://dev.conduster.com/signup/confirm/{code_hash}\n"
+"or provide this code {code} on confirtmation form https://dev.conduster.com/"
+"signup/confirm/"
+msgstr ""
+
+#: profiles/register.py:85 profiles/register.py:91 profiles/register.py:104
+#: profiles/register.py:182
+msgid "Invalid confirmation code"
+msgstr ""
+
+#: profiles/register.py:93
+msgid "Account already activated"
+msgstr ""
+
+#: profiles/register.py:116
+msgid "Conduster password recovery"
+msgstr ""
+
+#: profiles/register.py:117
+#, python-brace-format
+msgid ""
+"Follow this link to reset your password \n"
+"https://dev.conduster.com/recovery/confirm/{code_hash}\n"
+"or provide this code {code} on recovery confirmation form https://dev."
+"conduster.com/recovery/confirm/\n"
+"Just ignore this letter if didn't request password recovery.\n"
+"\n"
+"Best regards,\n"
+"Conduster support"
+msgstr ""
+
+#: profiles/register.py:146
+msgid "User with this email is not found"
+msgstr ""
+
+#: profiles/register.py:154 profiles/register.py:161
+msgid "Invalid recovery code"
+msgstr ""
+
+#: profiles/register.py:163
+msgid "Account is not active"
+msgstr ""
+
+#: profiles/register.py:170
+msgid "Password mismatch"
+msgstr ""
+
+#: profiles/schema.py:176
+msgid "Password and password confirmation are not the same"
+msgstr ""
+
+#: profiles/schema.py:184
+msgid "Current password mismatch"
+msgstr ""
+
+#: xflatpages/models.py:9
+msgid "title_ru"
+msgstr ""
+
+#: xflatpages/models.py:10
+msgid "content_ru"
+msgstr ""

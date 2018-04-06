@@ -1,0 +1,42 @@
+version:                  '2.1'
+
+services:
+  postgres_service:
+    build:
+      context:            ./docker/postgres
+      dockerfile:         Dockerfile
+    restart:              always
+    networks:
+      - conduster
+    expose:
+      - 5432
+    ports:
+      - '5450:5432'
+    env_file:
+      - .dev.env
+    volumes:
+      - /var/lib/postgresql/:/var/lib/postgresql/
+  condust_service:
+    image:                 conduster:python
+    build:
+      context:            ./
+      dockerfile:         Dockerfile
+    restart:              always
+    working_dir:          /var/www/app
+    command:              runserver 0.0.0.0:8000
+    networks:
+      - conduster
+#    ports:
+#      - 8000:8000
+    volumes:
+     - .:/var/www/app
+    env_file:
+      - .dev.env
+    depends_on:
+      - postgres_service
+
+networks:
+  conduster:
+    external:
+      name:               conduster
+

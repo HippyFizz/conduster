@@ -1,0 +1,16 @@
+Django==2.0.1
+django-cors-headers==2.1.0
+djangorestframework==3.7.7
+djangorestframework-jwt==1.11.0
+graphene-django==2.0.0
+psycopg2==2.7.3
+dj-database-url==0.4.2
+ua-parser==0.7.3
+django-ckeditor==5.3.1
+pyexcel-xlsx==0.5.5
+django-countries==5.0
+geoip2==2.6.0
+django-cron==0.5.0
+ipwhois==1.0.0
+mmh3==2.5.1
+gunicorn==19.7.1
